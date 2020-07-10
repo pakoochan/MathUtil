@@ -13,5 +13,6 @@ at FPT University, HCMC Campus
 ## Connect me via:
 1. [Github](https://github.com//pakoochan)
 2. [Facebook](https://facebook.com/anhropro123)
+3. [Email](foreverkmphg@gmail.com)
 
-#### © 2020 by Dong
+#### © 2020 by Dong | FPT University, HCMC Campus
