@@ -1,0 +1,35 @@
+1. Tạo kho trên server, ko tích vào README
+  - lưu ysL user, pass, email, url đến kho
+
+2. Ở máy mình (local) 
+- Tạo thư mục chứa project
+- Tạo .gitignore
+- Tạo README.md
+
+3. Lệnh
+- Chuyến đến thư mục code
+[
+- git config --global user.name "???"
+- git config --global user.email "???"
+
+] một lần duy nhất, cho đến khi cài lại máy
+  ~ remember account rồi
+- lệnh git init (biến thư mục thành kho)
+- git add *
+- git commit -m "????"
+- git remote add origin https://github.com/pakoochan/(kho của mình).git
+- git push -u origin master
+
+	-> kho mới
+-------
+sau này cứ sửa code ở thư mục local
+- gõ thêm 3 lệnh hàng ngày
+
+- git add *
+- git commit -m "????"
+- git push
+
+Về nhà đọc thêm
+RẼ NHÁNH TRONG GIT - BRANCH
+MERGE CODE, REVERT CODE
+CONFLICT, XUNG ĐỘT CODE
