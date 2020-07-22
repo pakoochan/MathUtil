@@ -21,10 +21,17 @@ public class MathUtil {
         //neu nguoi dung dua ca chon, ta se nem ra ngoai le
         if(n < 0 || n > 15)
             throw new IllegalArgumentException("Invalid argument. n must be >=0 & n <= 15");
-        long result = 1;
+        /*long result = 1;
         for (int i = 1; i <= n; i++) {
             result *= i;
         }
-        return result;
+        return result;*/
+        if(n == 0 || n == 1)
+            return 1;
+        
+        //dua nao xai else o cho nay, tru diem
+        return n * computeFactorial(n - 1);     //de quy ne
+                                                //n! = n * (n - 1)!
+                                                
     }
 }
